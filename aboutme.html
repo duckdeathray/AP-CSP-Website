@@ -1,0 +1,106 @@
+<!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>About Me</title>
+    <style>  
+
+.loaderWrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #FAF1E4;
+  z-index: 1000;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeLoader 0.6s 1s ease forwards;
+}
+
+.loader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 999;
+}
+.loader .bar {
+  width: 10px;
+  height: 5px;
+  background: #c9ab63;
+  margin: 2px;
+  animation: bar 1s infinite linear;
+}
+.loader .bar:nth-child(1) {
+  animation-delay: 0s;
+}
+.loader .bar:nth-child(2) {
+  animation-delay: 0.25s;
+}
+.loader .bar:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+@keyframes bar {
+  0% {
+    transform: scaleY(1) scaleX(0.5);
+  }
+  50% {
+    transform: scaleY(10) scaleX(1);
+  }
+  100% {
+    transform: scaleY(1) scaleX(0.5);
+  }
+}
+
+@keyframes fadeLoader {
+  to {
+    opacity: 0;
+  }
+}
+      div.class.a {  
+        word-wrap: break-word;  
+}  
+  .button {
+    background-color: none;
+    border: none;
+    color: #7EAA92;
+    padding 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+    margin: 2px 4px;
+    cursor: pointer;
+    </style>  
+    </head>
+    <body bgcolor="#FFC6AC">
+    <div class="loaderWrapper">
+      <div class="loader">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          </div>
+    </div>
+    <a href="index.html" class="button">Home</a>
+    <a href="portfolio.html" class="button">Portfolio</a>
+    <a href="aboutme.html" class="button">About Me</a>
+    <a href="theplan.html" class="button">The Plan</a>
+    <a href="spacebase.html" class="button">Space Base</a>
+  <center>
+    <h1>My Motivation</h1>
+
+  </center>
+    <div class="a">It all began one day when I was a young child.  Summer break had come and I was ready to take my next step into the world- middle school.  What I didn't know was that my life would be irrevocovably changed.  This experience was so intense and incredibly horrid that I felt my stomach drop through my body, through the ground, out of China, and defy gravity by shoooting into outer space and beyond the solar system.  Goosebumps covered my arms and I did a full body shiver, one that left me flailing so badly that people called an ambulance because they thought I was having a seizure.  Upon stopping, I stared blankly into space, the blood vessels in my head burst, causing me to have a stroke.  I sagged to the ground in defeat and accepted that my life was over.  It had been too much.  The ducks had won.</div> 
+      <br>
+      <img src="aicreepyduck.jpg" height="400">
+      <img src="humanduck.jpg" height="400">
+      <img src="creepyduck.jpg" height="400">
+      <img src="knifeduck.jpg" height="400">
+      <img src="rubberduck.jpg" height="400">
+      <img src="ominousduck.jpg" height="400">
+      <img src="duckmouth.jpg" height="400">
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Plan</title>
+  <style>
+.loaderWrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #FAF1E4;
+  z-index: 1000;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeLoader 0.6s 1s ease forwards;
+}
+
+.loader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 999;
+}
+.loader .bar {
+  width: 10px;
+  height: 5px;
+  background: #c9ab63;
+  margin: 2px;
+  animation: bar 1s infinite linear;
+}
+.loader .bar:nth-child(1) {
+  animation-delay: 0s;
+}
+.loader .bar:nth-child(2) {
+  animation-delay: 0.25s;
+}
+.loader .bar:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+@keyframes bar {
+  0% {
+    transform: scaleY(1) scaleX(0.5);
+  }
+  50% {
+    transform: scaleY(10) scaleX(1);
+  }
+  100% {
+    transform: scaleY(1) scaleX(0.5);
+  }
+}
+
+@keyframes fadeLoader {
+  to {
+    opacity: 0;
+  }
+}
+  .button {
+    background-color: none;
+    border: none;
+    color: #7EAA92;
+    padding 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+    margin: 2px 4px;
+    cursor: pointer;
+
+  .btn {
+    border: 2px solid black;
+    background-color: yellow;
+    color: #7EAA92
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Arial', sans-serif;
+    margin: 2px 4px;
+    cursor: pointer;
+  </style>
+  </head>
+ <body bgcolor="#DAF7A6">
+    <div class="loaderWrapper">
+      <div class="loader">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          </div>
+    </div>
+    <a href="index.html" class="button">Home</a>
+    <a href="portfolio.html" class="button">Portfolio</a>
+    <a href="aboutme.html" class="button">About Me</a>
+    <a href="theplan.html" class="button">The Plan</a>
+    <a href="spacebase.html" class="button">Space Base</a>
+    <center style="background-color: #DAF7A6;">
+      <h1>Our Plan</h1>
+      <h2>The Holy Scripture</h2>
+      <img src="https://m.media-amazon.com/images/I/61fRYpMH+FL._AC_UF1000,1000_QL80_.jpg" height="500">
+   </center>
+    <h1>The Duck Language</h1>
+  <audio controls>
+    <source src="duckquack.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<center>
+  <font size="5">
+    Know thy enemy and know yourself; in a hundred battles, you will never be defeated
+  </font>
+  <br>
+  <br>
+  <font size="3">
+    - Sun Tzu
+  </font>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a href="https://en.wikipedia.org/wiki/Duck" class="btn">
+    <button>Ducks</button></a>
+  <a href="https://madisonaudubon.org/blog/2020/11/1/a-beginners-guide-to-duck-id">
+    <button>A Beginner's Guide to Identifying Ducks</button></a>
+  <a href="https://www.thespruce.com/duck-identification-tips-387336">
+    <button>Ducks and How to Identify Them</button></a>
+  <br>
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/tpKtLQEdCss?si=EfHl1yhKalVtbR0W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <br>
+  <br>
+  <br>
+  <p>Our Mission: Destroy This Abomination</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/MtN1YnoL46Q?si=Yy54owX5gCxr9pXf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+  </body>
+</html>
